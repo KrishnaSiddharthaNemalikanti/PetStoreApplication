@@ -24,21 +24,9 @@
 * click submit,you will be taken to the results page 
 * from here you can goback to the home page by clicking on redirect home page button 
 * once here you can click on Previous results to see your previous search results.
-# Sample Input values for the form 
+# Sample valid Input values for the form 
 * zipcode:95050,94050(Possible Inputs that u can give)
 * age : 3,2,1(possible inputs that u can give)
-
-
-
-
-
-
-
-
-
-
-
-
 
 # DB Structure
 * I have used a sql type database and used .sqlite library to create the database.
