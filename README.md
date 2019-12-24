@@ -18,9 +18,16 @@
 * Now Run npm start or either nodemon server to start the server.
 * Now if you see the msg server running on port 5000 ,congrats your server is running.
 * if you see the msgConnected to the MY database,you have succesfully connected to the database and your api is ready.*  
-# Sample Input to Run the Application
+# how to run the application
+* Click on the New Search Form ,to enter your search
+* and enter valid input values  for fields zipcode,age ,they are mentioned below
+* click submit,you will be taken to the results page 
+* from here you can goback to the home page by clicking on redirect home page button 
+* once here you can click on Previous results to see your previous search results.
+# Sample Input values for the form 
 * zipcode:95050,94050(Possible Inputs that u can give)
 * age : 3,2,1(possible inputs that u can give)
+
 
 
 
