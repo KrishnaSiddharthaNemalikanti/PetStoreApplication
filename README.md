@@ -20,7 +20,7 @@
 * if you see the msgConnected to the MY database,you have succesfully connected to the database and your api is ready.*  
 # how to run the application
 * Click on the New Search Form ,to enter your search
-* and enter valid input values  for fields zipcode,age ,they are mentioned below
+* enter valid input values  for fields zipcode,age ,they are mentioned below
 * click submit,you will be taken to the results page 
 * from here you can goback to the home page by clicking on redirect home page button 
 * once here you can click on Previous results to see your previous search results.
