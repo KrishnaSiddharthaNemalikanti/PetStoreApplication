@@ -7,6 +7,19 @@
 * Run npm i webpack-dev-server --save-dev(this will install webpack dev server which has hot reloading)
 * Run npm start ,this will open the application in browser.
 
+# PetsApp-API
+* This Folder contains the Node express web server and the Database containing the Sample Pet data.
+
+# Downloads and Installation.
+* Clone the Repository PetStoreApplication to your local disk.if Done Already ignore it.
+* next Download and Install Node.js and npm ,npm will be automatically installed with node.js
+* Open terminal with the petStore-API as the directory and run npm install
+* next run npm install nodemon (optional)
+* Now Run npm start or either nodemon server to start the server.
+* Now if you see the msg server running on port 5000 ,congrats your server is running.
+* if you see the msgConnected to the MY database,you have succesfully connected to the database and your api is ready.*  # Sample Input to Run the Application
+* zipcode:95050,94050(Possible Inputs that u can give)
+* age : 3,2,1(possible inputs that u can give)
 
 
 
