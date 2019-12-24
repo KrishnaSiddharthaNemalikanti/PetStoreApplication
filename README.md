@@ -1,4 +1,5 @@
 # PetStoreApplication
+Configured with WebPack and Babel 7
 ## petStoreUI
 # Steps to Run the App:
 
