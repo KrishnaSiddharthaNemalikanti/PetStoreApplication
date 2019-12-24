@@ -17,9 +17,11 @@
 * next run npm install nodemon (optional)
 * Now Run npm start or either nodemon server to start the server.
 * Now if you see the msg server running on port 5000 ,congrats your server is running.
-* if you see the msgConnected to the MY database,you have succesfully connected to the database and your api is ready.*  # Sample Input to Run the Application
+* if you see the msgConnected to the MY database,you have succesfully connected to the database and your api is ready.*  
+# Sample Input to Run the Application
 * zipcode:95050,94050(Possible Inputs that u can give)
 * age : 3,2,1(possible inputs that u can give)
+
 
 
 
