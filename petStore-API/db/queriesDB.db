@@ -1,0 +1,23 @@
+
+CREATE TABLE ANIMAL (id char(36) default (lower(hex(randomblob(4))) || '-' || lower(hex(randomblob(2))) || '-4' || substr(lower(hex(randomblob(2))),2) || '-' || substr('89ab',abs(random()) % 4 + 1, 1) || substr(lower(hex(randomblob(2))),2) || '-' || lower(hex(randomblob(6)))), location INT, name varchar(36), animal  varchar(36), breed  varchar(36), age INT, picture blob, description varchar(256));
+INSERT INTO ANIMAL(location, name, animal,breed,age,picture,description) VALUES(95050,'BROWNIE','DOG','LABRADOR',1,readfile('assets/lab.png'),'Hi I am a dog ,please adopt me, I am a good boy, I will behave very well.');
+INSERT INTO ANIMAL(location, name, animal,breed,age,picture,description) VALUES(95050,'whiskers','DOG','LABRADOR',2,readfile('assets/lab.png'),'Hi I am a dog ,please adopt me, I am a good boy, I will behave very well.');
+INSERT INTO ANIMAL(location, name, animal,breed,age,picture,description) VALUES(95050,'bruno','DOG','LABRADOR',3,readfile('assets/lab.png'),'Hi I am a dog ,please adopt me, I am a good boy, I will behave very well.');
+INSERT INTO ANIMAL(location, name, animal,breed,age,picture,description) VALUES(95050,'Daffie','DOG','PUG',1,readfile('assets/pug.png'),'Hi I am a dog ,please adopt me, I am a good boy, I will behave very well.');
+INSERT INTO ANIMAL(location, name, animal,breed,age,picture,description) VALUES(95050,'bono','DOG','PUG',2,readfile('assets/pug.png'),'Hi I am a dog ,please adopt me, I am a good boy, I will behave very well.');
+
+INSERT INTO ANIMAL(location, name, animal,breed,age,picture,description) VALUES(94050,'sim','DOG','LABRADOR',1,readfile('assets/lab.png'),'Hi I am a dog ,please adopt me, I am a good boy, I will behave very well.');
+INSERT INTO ANIMAL(location, name, animal,breed,age,picture,description) VALUES(94050,'rah','DOG','LABRADOR',2,readfile('assets/lab.png'),'Hi I am a dog ,please adopt me, I am a good boy, I will behave very well.');
+INSERT INTO ANIMAL(location, name, animal,breed,age,picture,description) VALUES(94050,'sac','DOG','LABRADOR',3,readfile('assets/lab.png'),'Hi I am a dog ,please adopt me, I am a good boy, I will behave very well.');
+INSERT INTO ANIMAL(location, name, animal,breed,age,picture,description) VALUES(94050,'mah','DOG','PUG',1,readfile('assets/pug.png'),'Hi I am a dog ,please adopt me, I am a good boy, I will behave very well.');
+INSERT INTO ANIMAL(location, name, animal,breed,age,picture,description) VALUES(94050,'jay','DOG','PUG',2,readfile('assets/pug.png'),'Hi I am a dog ,please adopt me, I am a good boy, I will behave very well.');
+
+
+INSERT INTO ANIMAL(location, name, animal,breed,age,picture,description) VALUES(95050,'timmy','CAT','PERSIAN',2,readfile('assets/persian.png'),'Hi I am a Cat ,please adopt me, I am a good boy, I will behave very well.');
+INSERT INTO ANIMAL(location, name, animal,breed,age,picture,description) VALUES(94050,'Thomas','CAT','BENGAL',2,readfile('assets/bengal.png'),'Hi I am a Cat ,please adopt me, I am a good boy, I will behave very well.');
+INSERT INTO ANIMAL(location, name, animal,breed,age,picture,description) VALUES(94050,'Chetak','Horse','Mustang',2,readfile('assets/mustang.png'),'Hi I am a Horse ,please adopt me, I am a good boy, I will behave very well.');
+INSERT INTO ANIMAL(location, name, animal,breed,age,picture,description) VALUES(95050,'Ferrai','Horse','Arabic',2,readfile('assets/arab.png'),'Hi I am a Horse ,please adopt me, I am a good boy, I will behave very well.');
+
+
+
+
