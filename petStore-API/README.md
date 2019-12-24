@@ -2,17 +2,17 @@
 This Folder contains the Node express web server and the Database containing the Sample Pet data.
 # Downloads and Installation.
 
-* Clone the Repository to your local disk.
+* Clone the Repository PetStoreApplication to your local disk.if Done Already ignore it.
 * next Download and Install Node.js and npm ,npm will be automatically installed with node.js
-* Open terminal with the cloned repo as the directory and run ``npm install``
+* Open terminal with the petStore-API as the directory and run ``npm install``
 * next run ``npm install nodemon`` (optional)
 * Now Run ``npm start`` or either ``nodemon server`` to start the server.
 * Now if you  see the msg ``server running on port 5000`` ,congrats your server is running.
 * if you see the msg``Connected to the MY database``,you have succesfully connected to the database and your api is ready.
 
 # Sample Input to Run the Application
-- zipcode:95050,94050
-- age : 3,2,1
+- zipcode:95050,94050(Possible Inputs)
+- age : 3,2,1(possible inputs)
 # DB Structure
 - I have used a sql type database and used .sqlite library to create the database.
 - my data design consisted of one single tabe with 8 fields,ID contains a unique random value.
